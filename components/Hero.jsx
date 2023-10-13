@@ -21,7 +21,7 @@ function Hero() {
         {
             id: 3,
             img: "/banner22.png",
-            title: "",
+            title: "Buy with Software with solana",
             mainTitle: "",
             price: "",
         },
@@ -39,14 +39,15 @@ function Hero() {
     <div>
         <div className="container pt-6 lg:pt-0 block">
             
-    <Slider {...settings}> {slideData.map((item)=> (
+    <Slider {...settings}> {slideData.map((item)=> (<>
         <Slide 
             key={item.id}
             img={item.img}
             title={item.title}
             mainTitle={item.mainTitle}
             price={item.price}
-        />
+            />
+            </>
     ))} </Slider>
         </div>
     </div>

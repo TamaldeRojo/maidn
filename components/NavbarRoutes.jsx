@@ -51,6 +51,7 @@ const links = [
             <Link className="navbar__link relative" href="/xbox"> Xbox </Link>
             <Link className="navbar__link relative" href="/psn"> Psn </Link>
             <Link className="navbar__link relative" href="/nintendo"> Nintendo </Link>
+            <Link className="navbar__link relative border border-pink-600 rounded-2xl px-1 font-bold italic" href="/randomKey"> Roulette </Link>
             </div>
         </div>
     </div>
