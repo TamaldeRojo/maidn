@@ -45,12 +45,12 @@ const links = [
         <div className="container">
             <div className="flex w-fit gap-10 mx-auto font-medium py-4 text-blackish">
             <Link className="navbar__link relative" href="/"> Home </Link>
-            <Link className="navbar__link relative" href="/"> Mobile Recharge </Link>
-            <Link className="navbar__link relative" href="/"> Mobile </Link>
-            <Link className="navbar__link relative" href="/"> Pc </Link>
-            <Link className="navbar__link relative" href="/"> Xbox </Link>
-            <Link className="navbar__link relative" href="/"> Psn </Link>
-            <Link className="navbar__link relative" href="/"> Nintendo </Link>
+            <Link className="navbar__link relative" href="/mobileRe"> Mobile Recharge </Link>
+            <Link className="navbar__link relative" href="/mobile"> Mobile </Link>
+            <Link className="navbar__link relative" href="/pc"> Pc </Link>
+            <Link className="navbar__link relative" href="/xbox"> Xbox </Link>
+            <Link className="navbar__link relative" href="/psn"> Psn </Link>
+            <Link className="navbar__link relative" href="/nintendo"> Nintendo </Link>
             </div>
         </div>
     </div>

@@ -127,7 +127,7 @@ function Purchase() {
         const { slot } = confirmation.value
         console.log(" done xd")
         
-       router.push('/code')
+        router.push(`/code?img=${img}`)
 
     } catch (error) {
       console.log(error,"xd")

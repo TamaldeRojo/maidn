@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
+import {PiHeartStraightFill , PiHeartStraightBreakLight} from "react-icons/pi"
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const ProductCard = ({
@@ -16,52 +17,54 @@ const ProductCard = ({
     switch (rating) {
       case 1:
         return (
-          <div className="flex gap-1 text-[20px] text-[#FF9529]">
-            <AiFillStar />
-            <AiOutlineStar />
-            <AiOutlineStar />
-            <AiOutlineStar />
-            <AiOutlineStar />
+          <div className="flex gap-1 text-[20px] text-pink-600">
+            {/* <IoHeartSharp/>
+            <PiHeartStraightBold/> */}
+            <PiHeartStraightFill/>
+            <PiHeartStraightBreakLight/>
+            <PiHeartStraightBreakLight/>
+            <PiHeartStraightBreakLight/>
+            <PiHeartStraightBreakLight/>
           </div>
         );
       case 2:
         return (
-          <div className="flex gap-1 text-[20px] text-[#FF9529]">
-            <AiFillStar />
-            <AiFillStar />
-            <AiOutlineStar />
-            <AiOutlineStar />
-            <AiOutlineStar />
+          <div className="flex gap-1 text-[20px] text-pink-600">
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
+            <PiHeartStraightBreakLight/>
+            <PiHeartStraightBreakLight/>
+            <PiHeartStraightBreakLight/>
           </div>
         );
       case 3:
         return (
-          <div className="flex gap-1 text-[20px] text-[#FF9529]">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiOutlineStar />
-            <AiOutlineStar />
+          <div className="flex gap-1 text-[20px] text-pink-600">
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
+            <PiHeartStraightBreakLight/>
+            <PiHeartStraightBreakLight/>
           </div>
         );
       case 4:
         return (
-          <div className="flex gap-1 text-[20px] text-[#FF9529]">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiOutlineStar />
+          <div className="flex gap-1 text-[20px] text-pink-600">
+          <PiHeartStraightFill/>
+          <PiHeartStraightFill/>
+          <PiHeartStraightFill/>
+          <PiHeartStraightFill/>
+          <PiHeartStraightBreakLight/>
           </div>
         );
       case 5:
         return (
-          <div className="flex gap-1 text-[20px] text-[#FF9529]">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
+          <div className="flex gap-1 text-[20px] text-pink-600">
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
+            <PiHeartStraightFill/>
           </div>
         );
 

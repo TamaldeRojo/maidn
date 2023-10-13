@@ -50,6 +50,22 @@ const productsData = [
         rating: 4,
         price: "0.03",
     },
+    {
+        productId: 1,
+        img: "/at&t.png",
+        title: "At&t recharge",
+        desc: "",
+        rating: 5,
+        price: "0.2",
+    },
+    {
+        productId: 4,
+        img: "/lf.jpg",
+        title: "lords of the fallen",
+        desc: "",
+        rating: 4,
+        price: "0.1",
+    }
   ];
 
 function Products() {

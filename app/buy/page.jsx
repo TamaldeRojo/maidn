@@ -95,10 +95,10 @@ function Sellers() {
     <PiHeartStraightBreakLight/> 
     <h1>This Game Is Only Available On English</h1> </div>
     </div>
-
+    
     <div className='border border-pink-600 rounded-2xl h-[100rem] sm:h-[70%] w-[90%] p-5 ml-5 mt-10'>
         <h3 className='mt-10'>{title}</h3>
-        <div className='mt-5'>{generateRating(rating)}</div>
+        <div className='mt-5'>{generateRating(parseInt(rating))}</div>
         <div className='mt-10 grid grid-cols-2 md:grid-cols-2 gap-4'>
           <div><h1>NO US</h1></div>
           <div>{desc}</div>

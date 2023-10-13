@@ -17,19 +17,20 @@ function Hero() {
       };
 
       const slideData = [
+        ,
+        {
+            id: 3,
+            img: "/banner22.png",
+            title: "",
+            mainTitle: "",
+            price: "",
+        },
         {
             id: 2,
             img: "/banner.png",
-            title: "maybe2",
-            mainTitle: "maybe2",
-            price: "300",
-        },
-        {
-            id: 3,
-            img: "/banner2.png",
-            title: "maybe2",
-            mainTitle: "maybe2",
-            price: "300",
+            title: "",
+            mainTitle: "",
+            price: "",
         }
       ]
 
