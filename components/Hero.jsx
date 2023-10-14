@@ -19,14 +19,14 @@ function Hero() {
       const slideData = [
         ,
         {
-            id: 3,
+            id: 0,
             img: "/banner22.png",
-            title: "Buy with Software with solana",
+            title: "Buy Software with solana",
             mainTitle: "",
             price: "",
         },
         {
-            id: 2,
+            id: 1,
             img: "/banner.png",
             title: "",
             mainTitle: "",
