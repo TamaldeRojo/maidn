@@ -1,3 +1,5 @@
+# This Project was made by me in one day for a Solana Hackaton 13/10/23 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
